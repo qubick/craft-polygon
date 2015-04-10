@@ -1,0 +1,9 @@
+<craft>
+    <craft name="polygon" src="./index.xml"/>
+    <row spacing="2"> 
+	 	<polygon></polygon>
+    	<polygon side="5" length="7"></polygon>
+    	<polygon side="8" length="7"></polygon>
+    	<polygon side="6" length="5"></polygon>
+    </row> 
+</craft>

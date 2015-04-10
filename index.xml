@@ -1,0 +1,16 @@
+<craft>
+    <parameter name="side" type="int" default="4"/>
+	 <parameter name="length" type="int" default="5"/>
+    <script type="text/openjscad">
+
+        function main(params){
+				var res = params.side
+					,len  = params.length
+
+				var obj = cylinder({r:len, h:1, fn:res})
+
+				return obj
+        }
+    </script>
+</craft>
+
